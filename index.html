@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SMART DUSTBIN</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+	<script type="text/javascript">
+		jssor_1_slider_init = function() {
+
+			var jssor_1_SlideshowTransitions = [
+			{$Duration:1200,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			{$Duration:1200,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+			];
+
+			var jssor_1_options = {
+				$AutoPlay: 1,
+				$SlideshowOptions: {
+					$Class: $JssorSlideshowRunner$,
+					$Transitions: jssor_1_SlideshowTransitions,
+					$TransitionsOrder: 1
+				},
+				$ArrowNavigatorOptions: {
+					$Class: $JssorArrowNavigator$
+				},
+				$ThumbnailNavigatorOptions: {
+					$Class: $JssorThumbnailNavigator$,
+					$Cols: 1,
+					$Align: 0,
+					$NoDrag: true
+				}
+			};
+
+			var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+		};
+	</script> 
+</head>
+<body id="home">
+	<header>
+		<div class="top-header"></div>
+		<div class="main-header">
+			<div class="container">
+				<div class="pull-left logo">
+					<img src="images/logo.png" width="198" height="82" alt="simple logo">
+				</div>
+				<div class="pull-right">
+					<nav>
+						<ul>
+							<li><a href="#home">Home</a></li>						
+							<li><a href="monitoring.php">Monitoring</a></li>
+							<li><a href="deskripsi alat dan komponen.html">Deskripsi</a></li>
+							<li><a href="#contact">Kontak Kami</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- / header -->
+
+	<div class="slider">
+		<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1400px;height:600px;overflow:hidden;visibility:hidden; max-width: 100%">
+			<!-- Loading Screen -->
+			<div data-u="loading" style="position:absolute;top:0px;left:0px;background:url('img/loading.gif') no-repeat 50% 50%;background-color:rgba(0, 0, 0, 0.7); max-width: 100%"></div>
+			<div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1400px;height:600px;overflow:hidden;">
+				<div>
+					<img data-u="image" src="images/slider-image.jpg" />
+					<div u="thumb">
+						<h1>Welcome to Our IOT Project</h1>
+						<p>Monitoring Volume dan Lokasi Smart Dustbin dengan Web Berbasis Arduino Uno</p>
+						<a href="#features" class="btn-yellow">Explore More</a>
+					</div>
+				</div>
+				<div>
+					<img data-u="image" src="images/iot.jpg" />
+					<div u="thumb">
+						<h1>Welcome to our IOT Project</h1>
+						<p>Monitoring Volume dan Lokasi Smart Dustbin dengan Web Berbasis Arduino Uno</p>
+						<a href="#features" class="btn-yellow">Explore More</a>
+					</div>
+				</div>
+				<a data-u="any" href="https://www.jssor.com" style="display:none">html slider</a>
+			</div>
+			<!-- Thumbnail Navigator -->
+			<div u="thumbnavigator" style="position:absolute;bottom:160px;width:700px;height:185px;color:#FFF;" data-autocenter="1" data-scale-bottom="0.75">
+				<div u="slides">
+					<div u="prototype" style="position:absolute;top:0;left:0;width:700px;height:185px; text-align: center; padding: 10px 0">
+						<div u="thumbnailtemplate"></div>
+					</div>
+				</div>
+			</div>
+			<!-- Arrow Navigator -->
+			<div data-u="arrowleft" class="jssora061" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+				<svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+					<path class="a" d="M11949,1919L5964.9,7771.7c-127.9,125.5-127.9,329.1,0,454.9L11949,14079"></path>
+				</svg>
+			</div>
+			<div data-u="arrowright" class="jssora061" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+				<svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+					<path class="a" d="M5869,1919l5984.1,5852.7c127.9,125.5,127.9,329.1,0,454.9L5869,14079"></path>
+				</svg>
+			</div>
+		</div>
+	</div>
+	<!-- / .slider -->
+
+	<section id="features" class="intro text-center">
+		<div class="container">
+			<h1>Welcome To Our IOT Project</h1>	
+			<div class="intro-text">
+				Suatu Project Memonitoring Tempat Sampah Pintar dilihat Dari Volume dan Lokasi Tempat Sampah Yang Terkoneksi Ke Web Server
+				Dengan Menggunakan Wireless.
+			</div>	
+			<div class="row">
+				<div class="column">
+					<img src="images/icon1.png" width="149" height="132" alt="icon1">
+					<h2>Monitoring</h2>
+					<div class="column-text">
+						Smart Dustbin ini Dilengkapi dengan Perangkat Untuk memonitor letak dan juga Volume Tempat Sampah mana yang sudah full. Lets Go To Monitoring This IOT Project! 
+					</div>
+					<a href="monitoring.php" class="btn-yellow">Explore More</a>
+				</div>
+				<div class="column">
+					<img src="images/icon2.png" width="149" height="132" alt="icon">
+					<h2>Deskripsi Dan Komponen</h2>
+					<div class="column-text">
+						Untuk Membuar Smart Dustbin ini membutuhkan beberapa piranti atau komponen yang digunakan baik komponen utama maupun komponen pendukung. Yuk Klik tombol dibawah ini untuk lebih jelasnya  
+					</div>
+					<a href="deskripsi alat dan komponen.html" class="btn-yellow">Explore More</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</section>
+	<!-- / .intro -->
+
+	<section class="subscribe">
+		<div class="container">
+			<div class="text-center">
+					<h2>Ingin Bekerja Sama atau Kritik & saran ?</h2>
+					<p>Cukup dengan mengirimkan email ke kontak kami.</p>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</section>
+	<!-- / .subscribe -->
+
+	<section id="contact" class="contact">
+		<div class="container">
+			<h1 class="text-center">Kontak Kami</h1>	
+			<div class="row outer-row">
+				<div class="column">
+					<div class="row">
+						<div class="column social-icons">
+							<a href="#contact"><i class="fa fa-whatsapp"></i></a>082313465051
+							<br/><br/><a href="#contact"><i class="fa fa-envelope"></i></a>iot70106@gmail.com 
+							<br/><br/><a href="#contact"><i class="fa fa-instagram"></i></a>nadyarachmi
+						</div>
+						<div class="column mr0 text-center">
+							<img src="images/untitled2.png" width="200" height="200" alt="profile_picture">
+							<h2 style="color: #191970">Owner : Nadya Rachmi</h2>
+						</div>
+					</div>
+				</div>
+				<div class="column mr0">
+					<div class="google-map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.6716537976886!2d110.43892051431844!3d-7.047815971016912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708d2be2c878db%3A0xc5ab767388384efa!2sFSM+Undip!5e0!3m2!1sid!2sid!4v1556693129550!5m2!1sid!2sid" width="100%" height="232" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</section>
+	<!-- / .contact -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div><center> SMART DUSTBIN <br/>Copyright©2019. All Rights Reserved</center></div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</footer>
+	<!-- / footer -->
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/jssor.slider-25.0.7.min.js"></script>
+	<script type="text/javascript">jssor_1_slider_init();</script>	
+	<script type="text/javascript">
+		$(".search").click(function(){
+			$(".search-box").slideToggle("fast").find("input").focus();
+		});
+
+		$("nav li a").click(function() {
+			var target = $(this).attr("href");
+			$('html,body').animate({
+				scrollTop: $(target).offset().top},
+				'slow');
+		});
+		
+		$(".slider a").click(function() {
+			var target = $(this).attr("href");
+			$('html,body').animate({
+				scrollTop: $(target).offset().top},
+				'slow');
+		});
+	</script>   
+</body>
+</html>
